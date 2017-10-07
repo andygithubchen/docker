@@ -1,7 +1,5 @@
 *Docker实验性学习和整理*
-
-======
-
+---
 由于Docker Hub 镜像比较慢，所以最好搞个加速地址，我使用的aliyun的
 Docker Hub 镜像站点 (加速器地址)。
 
@@ -15,8 +13,7 @@ Docker Hub 镜像站点 (加速器地址)。
 < your accelerate address > 这个在[ 这里](https://cr.console.aliyun.com/?spm=5176.100239.blogcont29941.13.Grxfgq)注册后，管理后台“Docker Hub 镜像站点”里会提供给你的。
 
 
-### 一些概念
-======
+# 一些概念 #
 docker 可以理解为一种更加轻量的虚拟机，vmwareWorkstation是虚拟多套硬件的话，docker就是虚拟多套系统。
 
 #### 1. 镜像
@@ -92,9 +89,7 @@ docker logs    # 查看容器的日志(stdout/stderr)
   ```
 
 
-### 一些问题
-======
-
+# 一些问题 #
   > 1.在容器里访问外部数据库
   > > 我亲自测试宿主机与容器里是可以互相访问数据库的。前提是MySQL要支持远程访问。
   > > > * 宿主机访问容器里的mysql, 用容器里的IP(ifconfig)。
@@ -108,8 +103,7 @@ docker logs    # 查看容器的日志(stdout/stderr)
   >
 
 
-### 其他
-======
+# 其他 #
   > 参考文档
   > > https://blog.csphere.cn/archives/22
 
