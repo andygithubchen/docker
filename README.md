@@ -102,7 +102,7 @@ docker logs    # 查看容器的日志(stdout/stderr)
   > > 有时候会遇到在容器里无法写文件，无法使用sudo的问题，等再遇到后在补充。
   >
 
-# mac 安装我界面版 #
+# mac 安装无界面版 #
 ```shell
 brew install docker
 brew install docker-machine
